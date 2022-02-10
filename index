@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IQRO</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <a href="#" ><img src="log_w1.png" alt="" class="logo"><span></span></a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navigation">
+      <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">About</a></li>
+      <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+      <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+      <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+  </header>
+
+
+
+
+
+
+  
+  <!-- Start section -->
+
+  <section class="banner" id="banner">
+    <svg id="layer_1" class="layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193.01 92.51"><defs></defs><text x="-167.61" y="-180.77"/><g id="g4536"><g id="g4544"> <a href="#" class="iqro"><path id="path2" class="cls-1" d="M208.83,184.6c2.44,1.15,4.91,2.25,7.32,3.44,8.47,4.17,16.92,8.39,25.38,12.57.38.19.78.34,1.16.51a1.37,1.37,0,0,1,1,1.31,1.39,1.39,0,0,1-1,1.29l-9.18,3.88c-.85.36-1.68.74-2.55,1.05a.67.67,0,0,0-.5.74c0,3.05,0,6.09,0,9.14,0,.65-.21.88-.88.92-.23,0-.46,0-.7,0l-.65.06c0-.16,0-.3,0-.43,0-3.05,0-6.09.06-9.14a3.7,3.7,0,0,0-1.92-3.57,26.29,26.29,0,0,0-8.12-3,50.62,50.62,0,0,0-12.94-.93,38.83,38.83,0,0,0-13.82,3.24,7.91,7.91,0,0,0-1.67,1,4.11,4.11,0,0,0-1.49,3.63c.07,2.64.09,5.28.11,7.92,0,.86-.34,1.19-1.22,1.17-.29,0-.59-.05-1-.09v-.57c0-3.15,0-6.3,0-9.46a.73.73,0,0,0-.55-.8l-5.56-2.24-.5-.17v.57q0,6.62,0,13.22a1,1,0,0,0,.41.84,16.59,16.59,0,0,1,1.87,1.78,3.71,3.71,0,0,1,.42,4.36,4.27,4.27,0,0,1-7.7.32,4.25,4.25,0,0,1,.91-5.53,6.79,6.79,0,0,1,1.15-.93,1,1,0,0,0,.52-1q0-7,0-14a.84.84,0,0,0-.55-.9c-.44-.19-.86-.4-1.32-.56a4.37,4.37,0,0,1-2.51-1.71v-.32a2.93,2.93,0,0,1,1.7-1.41l.43-.2q13.23-6.56,26.5-13.11c2-1,4.14-1.94,6.22-2.91l.51,0h.67ZM177,202.27a1.35,1.35,0,0,0,.27.16c3,1.32,6.07,2.62,9.09,3.95a.42.42,0,0,0,.58-.14,10.88,10.88,0,0,1,.94-.86,20.18,20.18,0,0,1,7.33-3.46,46.1,46.1,0,0,1,11.21-1.66,48.79,48.79,0,0,1,14.78,1.54,22.42,22.42,0,0,1,9,4.44.7.7,0,0,0,.59,0l8.81-3.8c.1-.05.19-.12.31-.19l-.32-.17q-15-7.41-30.06-14.82a2.47,2.47,0,0,0-2.33.05q-12.11,6-24.22,12c-2,1-3.93,1.93-5.93,2.92Zm3.61,22.82a2,2,0,0,0-2.25-2.21,2,2,0,0,0-2,2.2,2.15,2.15,0,0,0,4.29,0Z" transform="translate(-167.61 -180.77)"/></a><a href="#" class="iqro"><path id="path4" class="cls-1" d="M209,211.48c8,.37,14.65,4.32,18.78,12.07a22.56,22.56,0,0,1-5.39,27.91,20.79,20.79,0,0,1-15.18,5.24,21.4,21.4,0,0,1-17.39-10.21,22.56,22.56,0,0,1,3.48-29c4.15-4,9.17-5.94,15.7-6.05Zm-11.8,12.3c-1.58-.56-3.12-1.11-4.68-1.62-.1,0-.34.13-.43.25a18.36,18.36,0,0,0-3.32,7.83c-.14.88-.18,1.78-.27,2.68H196C196.39,229.89,196.8,226.87,197.23,223.78Zm21.84.18c1.05,2.95,1,6,1.53,9h7.47c-.12-.86-.22-1.69-.36-2.51a21.1,21.1,0,0,0-3.23-8,.61.61,0,0,0-.49-.24C222.38,222.8,220.75,223.38,219.07,224Zm9,11.43h-7.48c-.16,1.21-.31,2.37-.47,3.55-.23,1.7-.45,3.4-.68,5.09,0,.24-.11.48.24.6,1.56.48,3.12,1,4.71,1.5,2-3.33,3.7-6.72,3.68-10.74Zm-30.53,8.91c-1.16-3-1-6.1-1.6-9.08h-7.31c0,.23,0,.41,0,.58a19.22,19.22,0,0,0,2.84,8.8c.25.44.48,1,.88,1.22s.89-.2,1.35-.33l.15,0,3.69-1.15ZM218,232.85a19,19,0,0,0-1.27-8.41l-7.27.73v7.68Zm0,2.5h-8.49a1.7,1.7,0,0,0,0,.28c0,2.36,0,4.71,0,7.07,0,.38.2.41.5.44l4.17.39,2.82.26a23.88,23.88,0,0,0,1.06-8.44ZM207,232.85v-7.73l-7.38-.68a23.77,23.77,0,0,0-1.06,8.41Zm-8.43,2.6c0,.08,0,.16,0,.21a21.23,21.23,0,0,0,1.16,7.82c.11.35.33.3.58.27,1.05-.1,2.12-.22,3.17-.31l3.68-.4v-7.59Zm17.58-13.6c-1.3-3.41-3-6.4-6.63-7.89v8.64a17.72,17.72,0,0,0,6.63-.75Zm-9-7.83c-2.6.68-6.31,5.14-6.61,7.93a18.38,18.38,0,0,0,6.61.62Zm0,31.53c-2.28.07-4.54-.07-6.67.81,1.44,4,4.5,7.52,6.67,7.67Zm2.47,0v8.61c3.54-1.62,5.4-4.51,6.61-8A27.76,27.76,0,0,0,209.57,245.58Zm-8.41,7.5c.11-.44-2.39-5.28-3.28-6.45a14.88,14.88,0,0,0-3,1,4.68,4.68,0,0,0-1,.69c1.17.92,2.21,1.88,3.41,2.68s2.51,1.39,3.83,2.11Zm-7.27-32.67c1.34.39,2.54.73,3.75,1.05a.51.51,0,0,0,.69-.35c.85-1.8,1.73-3.6,2.6-5.41.06-.11.08-.24.16-.42C198.31,216.46,195.79,217.83,193.89,220.41Zm28.91-.2c-2.24-2.24-4.55-4.15-7.57-5,.57.95,1.13,1.88,1.66,2.83s1,2.05,1.54,3.08a.41.41,0,0,0,.59.26c1.22-.4,2.45-.77,3.78-1.2Zm-7.1,32.33a12.38,12.38,0,0,0,6.92-4.72l-3.46-1.07a.72.72,0,0,0-1,.52c-.27.69-.63,1.34-1,2C216.73,250.33,216.23,251.38,215.7,252.54Z" transform="translate(-167.61 -180.77)"/></a><a href="#" class="iqro"> <path id="path6" class="cls-1" d="M208.31,207.93a1,1,0,1,1,0-2.06,1,1,0,0,1,1,1A1,1,0,0,1,208.31,207.93Z" transform="translate(-167.61 -180.77)"/><path id="path8" class="cls-1" d="M212.84,206.88a1.05,1.05,0,0,1-1,1.05,1,1,0,1,1-.05-2.06A1.08,1.08,0,0,1,212.84,206.88Z" transform="translate(-167.61 -180.77)"/><path id="path10" class="cls-1" d="M204.45,207.93a1,1,0,1,1,0-2.06,1,1,0,0,1,1,1A1,1,0,0,1,204.45,207.93Z" transform="translate(-167.61 -180.77)"/></a><path id="path12" class="cls-1" d="M207.65,184.58a1.71,1.71,0,0,1,.66-.1,1.73,1.73,0,0,1,.52.12" transform="translate(-167.61 -180.77)"/></g></g><path class="cls-1" d="M245.91,183.48v53.83c0,.13-.15,3.3-13.24,13.33a284.79,284.79,0,0,1-24.34,16.44A285,285,0,0,1,184,250.64c-13.09-10-13.24-13.2-13.24-13.33V183.48h75.17m3.14-2.71H167.61v56.54c0,6.49,24.55,23.45,40.72,33.08,16.16-9.63,40.72-26.59,40.72-33.08V180.77Z" transform="translate(-167.61 -180.77)"/> <text class="cls-2" transform="translate(85.12 38.6) scale(1.08 1)">IQRO</text><text class="cls-3" transform="translate(89.26 67.54) scale(1.08 1)">web<tspan x="0" y="19.43"></tspan><tspan class="cls-4" x="0" y="19.43">academy</tspan><tspan x="70.41" y="19.43"></tspan></text></svg>
+    <div class="content">
+      <h2>Rahmet!!!</h2>
+      <p>Dostar, osy kunderi vitualdiq maman ote katty suranista. Al endi tirkeleik. Ad magni eum quia quod! Officia iusto, tempora numquam ipsa obcaecati adipisci aspernatur vel atque explicabo dicta quo non! Incidunt, velit commodi.</p>
+      <a href="#" class="btn">Al Kettik!</a>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Start section -->
+
+
+  <section class="cards" id="cards"> 
+     <h3>Courses</h3> 
+     <div class="cards">
+        <div class="card">
+          <div class="imgCx">
+            <img src="wd_3.png">   
+          </div>
+          <div class="cont">
+            <h2> <br><span></span></h2>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgCx">
+            <img src="fnd_1.png">
+          </div>
+          <div class="cont">
+            <h2><br><span></span></h2>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgCx">
+            <img src="bcknd_7.png">
+          </div>
+          <div class="cont">
+            <h2><br><span></span></h2>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgCx">
+            <img src="dm_6.png">
+          </div>
+          <div class="cont">
+            <h2><br><span></span></h2>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgCx">
+            <img src="img_8.jpg">
+          </div>
+          <div class="cont">
+            <h2><br><span></span></h2>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgCx">
+            <img src="img_8.jpg">
+          </div>
+          <div class="cont">
+            <h2><br><span></span></h2>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgCx">
+            <img src="img_8.jpg">
+          </div>
+          <div class="cont">
+            <h2><br><span></span></h2>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- Start section -->
+  <section class="about" id="about">
+      <h3>Movie</h3>
+      <div class="card_about">
+        <video class="video" controls src="brain.mp4"></video>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Section Achivments -->
+  <section class="rec stats">
+    <div class="rombtent">
+      <div class="mxw800p">
+        <h3>Bizben Kepil</h3>
+      </div>
+      <div class="statsBox">
+        <div class="romb">
+          <h2>50+</h2>
+          <h4>Site </h4>
+        </div>
+        <div class="romb">
+          <h2>8</h2>
+          <h4>Portfolio</h4>
+        </div>
+        <div class="romb">
+          <h2>30</h2>
+          <h4>Graphic Jumis</h4>
+        </div>
+        <div class="romb">
+          <h2>10+</h2>
+          <h4>Motion</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Recent Work -->
+
+  
+  <section class="work" id="portfolio">
+    <div class="rombtent">
+      <div class="mxw800p">
+        <h3>Primeri</h3>
+      </div>
+      <div class="workBx">
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+
+
+
+
+
+  <!-- Start section -->
+  <section class="expert" id="expert">
+    <div class="title">
+      <h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div class="content">
+      <div class="box">
+        <div class="imgBx">
+          <img src="povar.jpg">
+        </div>
+        <div class="text">
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="povar1.jpg">
+        </div>
+        <div class="text">
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="povar4.jpg">
+        </div>
+        <div class="text">
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="povar3.jpg">
+        </div>
+        <div class="text">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  <!-- Start section -->
+  <section class="testimonials" id="testimonials">
+    <div class="title white">
+      <h2 class="titleText">They <span>S</span>aid About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div class="content">
+      <div class="box">
+        <div class="imgBx">
+          <img src="testi1.jpg">
+        </div>
+        <div class="text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+          <h3>Someone Famouse</h3>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="testi2.jpg">
+        </div>
+        <div class="text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+          <h3>Someone Famouse</h3>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="testi3.jpg">
+        </div>
+        <div class="text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+          <h3>Someone Famouse</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+  <footer>
+		<div class="container">
+			<div class="sec aboutus">
+				<h2>Biz Turaly</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<ul class="sci">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+				</ul>
+			</div>
+			<div class="sec quicklinks">
+				<h2>Tez silteme</h2>
+				<ul>
+					<li><a href="#">Web Design</a></li>
+					<li><a href="#">HTML & CSS - 1</a></li>
+					<li><a href="#">HTML & CSS - 2</a></li>
+					<li><a href="#">Internet Marketing</a></li>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="sec contact">
+				<h2>Bailanysu</h2>
+				<ul class="info">
+					<li>
+						<span><i class="fa fa-map-marker"></i></span>
+						<p>Suleiman Tower 128 office<br>
+							Prospekt Azattyk, 48<br>Atyrau</p>
+					</li>
+					<li>
+						<span><i class="fa fa-phone"></i></span>
+						<p><a href="tel:+7750005066">+7 775 000 50 66</a><br><a href="tel:+77018922206">+7 701 89 222 06</a></p>
+					</li>
+					<li>
+						<span><i class="fa fa-envelope"></i></span>
+						<p><a href="mailto:vunderdesign@gmail.com">vunderdesign@gmail.com</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<div class="copyrightText">
+		<p>© IQRO Web Academy 2021</p>
+	</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!--Scripts -->
+ 
+  <script type="text/javascript">
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+    function toggleMenu(){
+      const menuToggle = document.querySelector('.menuToggle');
+      const navigation = document.querySelector('.navigation');
+      menuToggle.classList.toggle('active');
+      navigation.classList.toggle('active');
+    }
+  </script>
+
+
+
+
+
+
+</body>
+</html>
